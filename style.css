@@ -1,7 +1,8 @@
 body {
-	background-color: #ffffff;
-	opacity: 1;
-	background-size: cover;
+	background: url('bilder/104497135_765998124141620_2288131329148882012_n.jpg');
+	background-size: stretch;
+	background-color: white;
+	background-blend-mode: 
 	margin: 0px;
 }
 
@@ -9,6 +10,10 @@ body {
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: center;
+}
+
+.navbar {
+	opacity: 0.9;
 }
 
 h1 {
@@ -21,6 +26,15 @@ h1 {
 	border-left: 1px solid black;
 	box-shadow: 2px 2px 2px #888888;
 	margin: 0px;
+	background-color: white;
+	opacity: 0.9;
+}
+
+h1:hover {
+	font-size: 5em;
+	opacity: 1;
+	width: 600px;
+	height: 150px;
 }
 
 p {
@@ -28,10 +42,17 @@ p {
 	font-size: 2em;
 	text-align: center;
 	width: 600px;
+	background-color: white;
+	border: 1px solid black;
+	opacity:0.9;
+	box-shadow: 1.5px 1.5px 1.5px #888888;
 }
 
-img {
-	opacity: 0.5;
+p:hover{
+	opacity:1;
+	font-size: 3em;
+	width: 700px;
+	height: 200px;
 }
 
 .btnbtn-primary {
