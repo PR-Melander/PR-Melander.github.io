@@ -26,7 +26,6 @@ h1 {
 }
 
 h1:hover {
-	font-size: 5em;
 	opacity: 1;
 	background-color: #888888;
 	width: 600px;
@@ -46,7 +45,6 @@ p {
 
 p:hover{
 	opacity:1;
-	font-size: 3em;
 	width: 700px;
 	height: 200px;
 	background-color: #888888;
