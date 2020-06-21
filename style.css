@@ -23,12 +23,13 @@ h1 {
 	box-shadow: 2px 2px 2px #888888;
 	margin: 0px;
 	background-color: white;
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 h1:hover {
 	font-size: 5em;
 	opacity: 1;
+	background-color: #888888;
 	width: 600px;
 	height: 150px;
 }
@@ -40,7 +41,7 @@ p {
 	width: 600px;
 	background-color: white;
 	border: 1px solid black;
-	opacity:0.9;
+	opacity:0.8;
 	box-shadow: 1.5px 1.5px 1.5px #888888;
 }
 
@@ -49,6 +50,7 @@ p:hover{
 	font-size: 3em;
 	width: 700px;
 	height: 200px;
+	background-color: #888888;
 }
 
 .btnbtn-primary {
