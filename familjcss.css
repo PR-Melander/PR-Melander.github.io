@@ -5,7 +5,7 @@ body {
 	background-size: auto;
 	margin: 0px;
 	display:flex;
-	justify-content: space-around;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -21,8 +21,8 @@ body {
 
 
 .flip-box {
-	margin: 10px;
 	/*opacity:0.9; if there will be a background picture*/
+	margin: 100px 20px 100px 20px;
   background-color: transparent;
   width: 400px;
   height: 400px;
@@ -71,9 +71,7 @@ body {
 }
 
 .flip-box1 {
-	display:flex;
-	justify-content: flex-end;
-	margin: 10px;
+		margin: 100px 20px 100px 20px;
 	/*opacity:0.9; if there will be a background picture*/
   background-color: transparent;
   width: 400px;
@@ -123,9 +121,7 @@ body {
 }
 
 .flip-box2 {
-	display:flex;
-	justify-content: flex-end;
-	margin: 10px;
+		margin: 100px 20px 100px 20px;
 	/*opacity:0.9; if there will be a background picture*/
   background-color: transparent;
   width: 400px;
@@ -175,8 +171,8 @@ body {
 }
 
 .flip-box3 {
-	margin: 10px;
 	/*opacity:0.9; if there will be a background picture*/
+		margin: 100px 20px 100px 20px;
   background-color: transparent;
   width: 400px;
   height: 400px;
@@ -225,8 +221,8 @@ body {
 }
 
 .flip-box4 {
-	margin: 10px;
 	/*opacity:0.9; if there will be a background picture*/
+		margin: 100px 20px 100px 20px;
   background-color: transparent;
   width: 400px;
   height: 400px;
