@@ -3,6 +3,8 @@ body {
 	opacity: 1;
 	background-size: cover;
 	margin: 0px;
+	display:flex;
+	flex-wrap: wrap;
 }
 
 .container {
@@ -11,9 +13,24 @@ body {
 	justify-content: center;
 }
 
+nav {
+	align-self: flex-start;
+	width: 100000px;
+}
+
 .navbar a:hover {
 	background-color: #BCBCBC;
 	opacity: 0.9;
+}
+
+h1 {
+	font-family: 'Times New Roman';
+	text-align: center;
+	font-size: 3em;
+	background-color: #888888;
+	width: 1600px;
+	border-bottom: 2px solid black;
+	box-shadow: 2px 2px 2px gray;
 }
 
 .flip-box {
@@ -22,7 +39,6 @@ body {
   background-color: transparent;
   width: 400px;
   height: 400px;
-  border: 1px solid #888888;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 

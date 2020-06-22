@@ -1,7 +1,7 @@
 body {
 	/* background: url('104840847_313062746751221_5700923741351380344_n.jpg'); background picture seems not neccesarry*/
 	background-color: #BCBCBC;
-	/* ta reda på eriks favorit färg och lägg det som bakgrundsfärg*/
+	/* Background color changed to have a clear contrast from the navbar and the body*/
 	background-size: auto;
 	margin: 0px;
 	display:flex;
@@ -21,8 +21,19 @@ nav {
 }
 
 .navbar a:hover {
+	/* Gives a shadow when hovering over an option, help visually*/
 	background-color: #BCBCBC;
 	opacity: 0.9;
+}
+
+h1 {
+	font-family: 'Times New Roman';
+	text-align: center;
+	font-size: 3em;
+	background-color: #888888;
+	width: 100000px;
+	border-bottom: 2px solid black;
+	box-shadow: 2px 2px 2px gray;
 }
 
 .flip-box {
@@ -31,7 +42,7 @@ nav {
   background-color: transparent;
   width: 400px;
   height: 400px;
-  border: 1px solid #888888;
+  /* removed border, to increase seamlessness, also it was just slightly misaligned and it tilted me */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
