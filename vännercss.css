@@ -11,6 +11,11 @@ body {
 	justify-content: center;
 }
 
+.navbar a:hover {
+	background-color: #BCBCBC;
+	opacity: 0.9;
+}
+
 .btnbtn-primary {
 	justify-content: center;
 }

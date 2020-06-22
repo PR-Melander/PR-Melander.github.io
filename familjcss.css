@@ -20,6 +20,10 @@ nav {
 	width: 100000px;
 }
 
+.navbar a:hover {
+	background-color: #BCBCBC;
+	opacity: 0.9;
+}
 
 .flip-box {
 	/*opacity:0.9; if there will be a background picture*/
