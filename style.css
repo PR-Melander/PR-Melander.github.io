@@ -1,7 +1,7 @@
 body {
 	background: url('104497135_765998124141620_2288131329148882012_n.jpg');
 	background-size: 300px;
-	background-color: white;
+	background-color: #BCBCBC;
 	margin: 0px;
 }
 
@@ -41,7 +41,7 @@ p {
 	font-family: 'Times New Roman';
 	font-size: 2em;
 	text-align: center;
-	width: 600px;
+	width: 500px;
 	background-color: white;
 	border: 1px solid black;
 	opacity:0.8;
