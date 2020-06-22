@@ -41,8 +41,8 @@ h1 {
 	/*opacity:0.9; if there will be a background picture*/
 	margin: 100px 20px 100px 20px;
   background-color: transparent;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   /* removed border, to increase seamlessness, also it was just slightly misaligned and it tilted me */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -83,8 +83,8 @@ h1 {
   color: black;
   font-family: 'Times New Roman'; 
   transform: rotateY(180deg);
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
 }
 
 .btnbtn-primary {
