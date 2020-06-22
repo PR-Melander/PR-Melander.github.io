@@ -4,8 +4,8 @@ body {
 	background-size: cover;
 	margin: 0px;
 	display:flex;
-	flex-wrap: wrap;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .container {
