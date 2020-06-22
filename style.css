@@ -11,6 +11,10 @@ body {
 	justify-content: center;
 }
 
+.navbar {
+	min-height: 50px;
+}
+
 .navbar a:hover {
 	background-color: #BCBCBC;
 	opacity: 0.9;

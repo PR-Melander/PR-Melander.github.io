@@ -16,6 +16,7 @@ body {
 nav {
 	align-self: flex-start;
 	width: 100000px;
+	min-height: 50px;
 }
 
 .navbar a:hover {
