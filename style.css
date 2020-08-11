@@ -59,6 +59,10 @@ p:hover{
 	background-color: #888888;
 }
 
+video{
+	margin: 100px 20px;
+}
+
 .btnbtn-primary {
 	justify-content: center;
 }
